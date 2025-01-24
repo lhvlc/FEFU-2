@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charSet="UTF-8">
+    <meta name="author" content="Ильяхова Алиса">
+    <meta name="description" content="Регистрация на олимпиаду">
+    <link rel="stylesheet" type="text/css" href="main2.css">
+    <link rel="shortcut icon" type="image/x-icon" href="kangaroo.jpg">
+	<title>Регистрация на олимпиаду &laquo;Кенгуру&raquo;</title>
+</head>
+
+<body>
+<header>
+    <h1>Регистрация</h1>
+</header>
+
+<form>
+    <fieldset>
+	    <legend>Персональная информация</legend>
+            <label>Фамилия:</label>
+                <br><input type="text" name="surname" required>
+		    <br><label>Имя:</label>
+		        <br><input type="text" name="name" required>
+		    <br><label>Отчество (при наличии):</label>
+		        <br><input type="text">
+		    <br><label>Дата рождения:</label>
+		        <br><input type="date" name="data" required>
+			<br><label>Укажите учереждение:</label>
+		    <br><select name="schools" id="school">
+            <option value="">Выберите учереждение</option>
+		        <optgroup label="Школы">
+                    <option value="5">МОБУ СОШ №5 им. Н.О.Кривошапкина</option>
+		            <option value="7">МОБУ СОШ № 7</option>
+                    <option value="26">МОБУ СОШ № 26</option>
+		            <option value="33" disabled>МОБУ СОШ № 33 им. Л.А.Колосовой</option>
+		        </optgroup>
+				
+		        <optgroup label="Лицеи">
+		            <option value="МАШ">Международная арктическая школа</option>
+		            <option value="ЯГЛ">Якутский городской лицей</option>
+                    <option value="ФТЛ">Физико-технический лицей им. В.П.Ларионова</option>
+		        </optgroup>
+            </select>
+    </fieldset>
+
+    <fieldset>
+	    <legend>Контактная информация</legend>
+            <br><label>E-mail:</label>
+		        <br><input type="email" placeholder="pirozkovartur@gmail.com" name="email" required>
+		    <br><label>Пароль:</label>
+		        <br><input type="password" name="password" required>
+		        <button>Сохранить</button>
+			<br><label>Номер телефона родителя/опекуна:</label>
+                <br><input type="tel">
+    </fieldset>
+
+    <fieldset>
+        <legend>Документированная информация</legend>	
+            <br><label>Документ, удостоверяющий личность:</label>
+		        <br><input type="file" name="document" required>
+    </fieldset>	
+
+	<p><input type="checkbox" name="approval" required><label for="approval">Согласие на обработку персональных данных</label></p>
+	<button class="button" onclick="window.location.href = '#'">Зарегистрироваться</button>
+</form>
+<section>
+    <h3>Комментарий:</h3>
+        <textarea id="comment" name="comment" placeholder="Как прошла олимпиада?" rows="5" cols="33"></textarea>
+</section>
+</body>
+</html>
