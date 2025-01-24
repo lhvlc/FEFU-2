@@ -1,0 +1,79 @@
+.container{
+	display: flex;
+	flex-direction: column;
+	min-width: 100%;
+	min-height: 100%;
+	padding: 25px;
+	background-color: rgb(166, 199, 228);
+}
+
+.card{
+	margin-left: 900px;
+	width: 18rem;
+}
+
+.carousel{
+	width: 25%;
+}
+
+.main{
+	display: flex;
+	justify-content: space-around;
+}
+
+.accordion{
+	width: 800px;
+	height: 500px;
+	flex-direction: column;
+	margin-top: -175px;
+	z-index: 2;
+}
+
+.headliners{
+	position: absolute;
+    width: 210px;
+    height: 165px;
+    background-color: rgb(246, 244, 189);
+	color: rgb(149, 112, 28);
+	font-size: 15px;
+	z-index: 2;
+    border-radius: 15px;
+    inset: 30px 0 0 30px;
+    animation: hl 12s forwards;
+}
+
+@keyframes hl{
+    0%{
+      transform: translateX(300px);
+    }
+    20%{
+      transform: translateX(0px);
+    }
+    80%{
+      transform: translateX(0px);
+    }
+    100%{
+      transform: translateX(300px);
+    }
+}
+
+.scroll{
+	width: 500px;
+    height: 300px;
+    overflow: scroll;
+	background-color: rgb(246, 244, 189);
+	z-index: 1;
+}
+
+.members td{
+	border: 2px solid black;
+}
+
+.members th{
+	border: 2px solid black;
+}
+
+#div1{
+    position: fixed;
+    inset: 200px 0 0 1000px;
+}

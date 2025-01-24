@@ -1,0 +1,30 @@
+body{
+    gap: 10px;
+    padding: 20px;
+}
+
+nav{
+	background-color: blue;
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.card-img-overlay{
+    text-align: center;
+}
+
+.card{
+    height: 250px;
+    
+}
+
+.card-body{
+    text-align: center;
+}
+
+.breadcrumb-item>a{
+    color: white;
+}
