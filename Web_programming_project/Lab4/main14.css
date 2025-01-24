@@ -1,0 +1,130 @@
+/*1 и 2*/
+div.improvisation{
+	box-sizing: border-box;
+    margin: 0px;
+	border: 40px solid #442bcf;
+	/*padding: 30px;*/
+	width: 530px;
+	height: 220px;
+}
+
+/*3*/
+div.additionally{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    margin: 0px;
+	border: 40px solid #442bcf;
+	/*padding: 30px;*/
+	width: 350px;
+	height: 220px;
+	text-align: center;
+}
+
+/*4*/
+div.section{
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+    margin: 0px;
+	border: 40px solid #442bcf;
+	/*padding: 30px;*/
+	width: 500px;
+	height: 780px;
+}
+
+img{
+	display: block;
+    margin: 0 auto;
+	width: 350px;
+	height: 250px;
+}
+
+body{
+    width: 1000px;
+    margin: 0 auto;
+    font-family: Gill Sans, sans-serif;
+    background-color: #f2f3f4;
+}
+
+strong{
+	display: inline;
+}
+
+button{
+	display: inline-block;
+	font-size: 15px;
+	color: #fff;
+	background: #442bcf;
+	padding: 8px;
+	margin-top: 5px;
+	margin-left: 3px;
+	border: 0;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    background: #442bcf;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h4{
+    margin: 5px;
+}
+
+h2{
+	color: #442bcf;
+}
+
+h3{
+	color: #000080;
+}
+
+table{
+	border-collapse: collapse;
+	margin: 20px;
+}
+
+th, td{
+	border: 1.5px solid rgb(68, 43, 207);
+	padding: 10px;
+}
+
+th{
+	background: #6495ed;
+	font-size: 23px;
+}
+
+td{
+	background: #f0f8ff;
+	text-align: center;
+}
+
+fieldset{
+    border: 1px solid #442bcf;
+	text-align: center;
+	margin-right: 980px;
+}
+
+.kinds1, .kinds2, .history, .form{
+	font-family: Verdana;
+}
+
+a[href]{
+	color: #442bcf;
+}
+
+input[type=email]{
+	border: 1px solid #442bcf;
+}
+
+input[type=password]{
+	border: 1px solid #442bcf;
+}
