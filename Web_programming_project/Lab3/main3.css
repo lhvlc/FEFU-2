@@ -1,0 +1,84 @@
+#header{
+    background: url('img/favicon.jpg');
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+body{
+    font-family: Gill Sans, sans-serif;
+    background-color: #f2f3f4;
+    margin: 20px;
+}
+
+h1, h4{
+    margin: 5px;
+}
+
+h2{
+	color: #442bcf;
+}
+
+h3{
+	color: #000080;
+}
+
+table{
+	border-collapse: collapse;
+	margin: 20px;
+}
+
+th, td{
+	border: 1.5px solid rgb(68, 43, 207);
+	padding: 10px;
+}
+
+th{
+	background: #6495ed;
+	font-size: 23px;
+}
+
+td{
+	background: #f0f8ff;
+	text-align: center;
+}
+
+fieldset{
+    border: 1px solid #442bcf;
+	text-align: center;
+	margin-right: 980px;
+}
+
+.kinds1, .kinds2, .history, .improvisation, .form{
+	font-family: Verdana;
+}
+
+a[href]{
+	color: #442bcf;
+}
+
+input[type=email]{
+	border: 1px solid #442bcf;
+}
+
+input[type=password]{
+	border: 1px solid #442bcf;
+}
+
+button{
+	font-size: 15px;
+	color: #fff;
+	background: #442bcf;
+	padding: 8px;
+	margin-top: 5px;
+	margin-left: 3px;
+	border: 0;
+}
+
+footer{
+	text-align: center;
+}
+
+.image{
+	text-align: center;
+}
