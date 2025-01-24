@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charSet="UTF-8">
+	<meta name="author" content="Ильяхова Алиса">
+	<meta name="description" content="">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="main5(1).css">
+</head>
+<body>
+	<!---Селeктор потомка--->
+	<div class="box"><p>Text in .box</p></div>
+	<p>Text not in .box</p>
+	
+	<!---Дочерний селектор--->
+	<div>родитель
+    <p>окрасит в красный, т.к. ребенок родителя</p>
+    <pre><p>не окрасит в красный</p></pre>
+    <p>окрасит<p>
+	родитель
+	</div>
+	
+	<!---Общий родственный комбинатор--->
+	<div>
+	<p>этот параграф не является братом или сестрой дива, это ребенок</p>
+	</div>
+	<p>является</p>
+	
+	<!---Соседний родственный комбинатор--->
+	<div>
+    <p>ребенок </p>
+	</div>
+	<p>соседний комбинатор</p>
+	<p>не примыкает к div</p>
+</body>
+</html>

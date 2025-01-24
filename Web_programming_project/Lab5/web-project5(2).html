@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charSet="UTF-8">
+	<meta name="author" content="Ильяхова Алиса">
+	<meta name="description" content="">
+	<title>ДЗ-5</title>
+	<link rel="stylesheet" type="text/css" href="main5(2).css">
+</head>
+<body>
+	<h1>Задача 1:</h1>
+	<a class="link1" href="#">Ссылка1</a>
+	
+	<h1>Задача 2:</h1>
+	<a class="link2" href="#">Ссылка2</a>
+	
+	<h1>Задача 3:</h1>
+	<p class="paragraph1"><i>Параграф1</i> кот собака рыбка хомяк <i>1фаргараП</i></p>
+	<p><i>Параграф2</i> тигр лев зебра бегемот <i>2фаргараП</i></p>
+	<p><i>Параграф3</i> сорока ворона воробей <i>3фаргараП</i></p>
+	
+	<h1>Задача 4:</h1>
+	<ul class="list1">
+		<li>Текст 1</li>
+		<li>Текст 2</li>
+		<li>
+			Текст 3
+			<ul>
+				<li>Текст 3.1</li>
+				<li>Текст 3.2</li>
+				<li>Текст 3.3</li>
+			</ul>
+		</li>
+	</ul>
+	
+	<h1>Задача 5:</h1>
+	<ul class="list2">
+		<li>
+			Текст 1
+			<ul>
+				<li>Текст 1.1</li>
+				<li>Текст 1.2</li>
+			</ul>
+		</li>
+		<li>Текст 2</li>
+	</ul>
+	
+	<h1>Задача 6:</h1>
+	<h3>
+	<code>span:nth-child(2n+1)</code>, БЕЗ элемента <code>&lt;em&gt;</code> в группе элементов-потомков.
+	</h3>
+	<p>Элементы 1, 3, 5 и 7 будут выбраны.</p>
+	<div class="first">
+		<span>Span 1!</span>
+		<span>Span 2</span>
+		<span>Span 3!</span>
+		<span>Span 4</span>
+		<span>Span 5!</span>
+		<span>Span 6</span>
+		<span>Span 7!</span>
+	</div>
+	<br />
+	<h3>
+	<code>span:nth-child(2n+1)</code>, С элементом <code>&lt;em&gt;</code> в группе элементов-потомков.
+	</h3>
+	<p>
+	Элементы 1, 5 и 7 будут выбраны.<br />
+	3 используется в подсчёте потому что это элемент-потомок, но он не выбран
+	потому что он не <code>&lt;span&gt;</code>.
+	</p>
+	<div class="second">
+		<span>Span!</span>
+		<span>Span</span>
+		<em>Это `em`.</em>
+		<span>Span</span>
+		<span>Span!</span>
+		<span>Span</span>
+		<span>Span!</span>
+		<span>Span</span>
+	</div>
+	
+	<h1>Задача 7:</h1>
+	<h4>Любой текст</h4>
+	
+	<a class="link3" href="#">This is a hyperlink</a>
+	
+	<div class="third">Вот только эту перву строку и открасит по всей ширине строки. This is some more text, and some more after that. Text. Text. Text. Text. Text. Text. Text. Text. Text.
+    Text. Text. Text. Text. Text. Text. Text. Text. Text. Text. Text.</div>
+	
+	<h1>Д/З:</h1>
+	<div class="container">
+		<h1>Заголовок</h1>
+		<p>Можно поменять <span>тескт</span>, на свой но код подгонять нельзя.</p>
+		<h2>Заголовок 2 уровня</h2>
+		<p>Ваша задача: 
+		Сделайте заголовки h1 синими.
+		Присвойте заголовкам h2 синий фон и белый текст.
+		Заставить текст, заключенный в диапазон, иметь размер шрифта 200%
+		</p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+/*1*/
+.link1:hover{
+	color: red;
+	font-weight: bold;
+}
+
+/*2*/
+.link2:link{
+	color: red;
+}
+
+.link2:visited{
+	color: orange;
+}
+
+.link2:hover{
+	color: yellow;
+}
+
+.link2:active{
+	color: green;
+}
+
+/*3*/
+/*3.1*/
+p > i:first-child{
+	color: red;
+}
+
+/*3.2*/
+p.paragraph1 i:first-child{
+	font-weight: bold; /*исправить*/
+}
+
+/*4*/
+ul.list1 li:first-child{
+	color: red;
+	font-weight: bold;
+}
+
+/*5*/
+ul.list2 li:last-child{
+	color: orange;
+	font-family: comic sans ms;
+}
+
+/*6*/
+span, div em{
+	padding: 5px;
+	border: 1px solid green;
+	display: inline-block;
+	margin-bottom: 3px;
+}
+
+.first span:nth-child(2n + 1), .second span:nth-child(2n + 1){
+  background-color: lime;
+}
+
+/*7*/
+h4::before{
+	content: url('orange.png');
+}
+
+.link3::after{   
+    content: url('orange.png');
+}
+
+.third::first-line{ 
+    color: red;   
+}
+
+/*Д/З*/
+.container:last-child h1{
+	color: blue;
+}
+
+.container:last-child h2{
+    background-color: blue;
+    color: white;
+}
+
+.container:last-child span{
+	font-size: 200%;
+}

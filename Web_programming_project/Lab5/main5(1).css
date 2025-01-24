@@ -1,0 +1,19 @@
+/*Селeктор потомка*/
+.box p{
+	color: red;
+}
+
+/*Дочерний селектор*/
+div > p{
+	background-color: red;
+}
+
+/*Общий родственный комбинатор*/
+div ~ p {
+    background-color: red;
+}*/
+
+/*Соседний родственный комбинатор*/
+div + p{
+	background-color: lightblue;
+}
