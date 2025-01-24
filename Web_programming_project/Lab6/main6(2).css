@@ -1,0 +1,21 @@
+body{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(166, 199, 228);
+    justify-content: space-between;
+}
+
+.wrap{
+    width: 500px;
+}
+
+aside{
+    width: 500px;
+}
+
+.wrap-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

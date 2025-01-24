@@ -1,0 +1,79 @@
+/*1*/
+.divclass1{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	color: white;
+}
+
+#id2{
+	position: relative;
+	inset: 20px 0 0 20px;
+	background-color: blue;
+}
+
+/*2*/
+.divclass2{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	color: white;
+}
+
+#id5{
+	position: absolute;
+	inset: 20px 0 0 20px;
+	background-color: blue;
+}
+
+/*3*/
+.divclass3{
+    width: 500px;
+    height: 300px;
+    overflow: scroll;
+    margin-left: 150px;
+}
+
+.divclass31{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+}
+
+#id9{
+    position: fixed;
+    inset: 80px 0 0 10px;
+}
+
+/*4*/
+dt{
+	background-color: black;
+	color: white;
+	padding: 10px;
+	position: sticky;
+	top: 0;
+	left: 0;
+	margin: 1em 0;
+}
+
+body{
+	height: 2200px;
+}
+
+/**/
+header{
+	position: relative;
+	background: url('../img/SK.jpeg') no-repeat center;
+	z-index: 0;
+}
+
+header::after{
+	content: "";
+	position: absolute;
+	background-color: rgb(224, 214, 220);
+	inset: 0;
+	z-index: -1;
+}
